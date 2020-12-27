@@ -114,7 +114,7 @@
    Sample Output
    -------------
 
-   jwuyeh
+   	jwuyeh
 	1 0.000 0 0
 	2 1.100 0 1
 	3 1.400 0 2
@@ -136,17 +136,17 @@
 
    Solution Strategy
    -----------------
-   -1 Read the first line (the number of test cases)
-   -2 Print andrew ID into the output file
-   -3 Check if the test case is greater than zero. If not print the andrew ID into the outfile and the message "no test cases".
-   -4 Then Loop through the location points (till the end of the file) while looking for a time
+   - Read the first line (the number of test cases)
+   - Print andrew ID into the output file
+   - Check if the test case is greater than zero. If not print the andrew ID into the outfile and the message "no test cases".
+   - Then Loop through the location points (till the end of the file) while looking for a time
       where t is -1, and each time check if the the location point is not already in the array. If it is, continue reading without
 	  doing anything. 
-   -5 If it is not in the array, add it to the array. A counter (which is index + 1) is used to signify each unique location point. Thus each time an item
+   - If it is not in the array, add it to the array. A counter (which is index + 1) is used to signify each unique location point. Thus each time an item
       is added, the counter is incremented. Each time a unique location is added to the array, the unique ID number (counter value), time, and
 	  the x and y values are printed to the output file. 
-   -6 While looping through, if a time value of -1 is encountered, the index (counter) is restarted and the boundary line is printed to the output file.
-   -7 This counter value is also used as a boundary of the number of array indices to check starting from 0, and because of this, the size of the array
+   - While looping through, if a time value of -1 is encountered, the index (counter) is restarted and the boundary line is printed to the output file.
+   - This counter value is also used as a boundary of the number of array indices to check starting from 0, and because of this, the size of the array
 	  used for each test case is limited to the the number of unique items in the list.
 
 
