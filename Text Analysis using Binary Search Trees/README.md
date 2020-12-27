@@ -7,7 +7,7 @@ file and inserting them in a binary search tree (BST). When all the words have b
 that file, traverse the BST and write the words to an output file, one word per line, in
 alphabetic order, together with the number of occurrences of each word in the file and, in
 brackets, the level at which they are stored in the BST. The root of the tree is at
-level 0. The program is case-insensitive, i.e. it treats �Tree� and �tree� as the
+level 0. The program is case-insensitive, i.e. it treats "Tree" and "tree" as the
 same word.
 For each file,the average and the maximum number of probes (i.e. nodes examined)
 to find a word in the BST are computed.
@@ -29,19 +29,19 @@ Input
 
 - The input file (input.txt) contains a list of filenames with one filename per line. The
   filenames include the relative path to that file from the directory where the executable
-  code is stored, e.g. �../data/textfile1.txt�).
+  code is stored, e.g. "../data/textfile1.txt").
   The first filename in the input file is the name of the list of words to used when checking
   the spelling of words in all subsequent files.
 
 Output
 ------
 
-- The program writes to the output file (�output.txt�) my Andrew Id, followed by (for
+- The program writes to the output file ("output.txt") my Andrew Id, followed by (for
   each file): the text with the incorrectly spelled words in upper case, the maximum number of
   probes on a separate line, the average number of probes on a separate line, followed by the list
   of distinct correctly spelled words in alphabetic order, one word per line with its frequency of
   occurrence and the level at which it resides in the tree, and, finally, the separator
-  (�--------------------�) on a separate line.
+  ("--------------------") on a separate line.
 
 
 Sample Input
@@ -141,7 +141,7 @@ Sample Output
 	that file, TRAVERSE the BST and write the WORDS to AN OUTPUT file, one word per line, in
 	ALPHABETIC order, together with the number of OCCURRENCES of each word in the file and, in
 	BRACKETS, the level at which they ARE STORED in the BST. Remember, the root of the tree is at
-	level 0. Your program should be CASE-INSENSITIVE, i.e. it should treat �Tree� and �tree� as the
+	level 0. Your program should be CASE-INSENSITIVE, i.e. it should treat "Tree" and "tree" as the
 	same word. 
 	Maximum number of probes: 11
 	Average number of probes: 6.4
