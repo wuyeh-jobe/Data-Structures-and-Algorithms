@@ -2,7 +2,7 @@
 
   The functionality of the program is defined as follows.
    
-	This program produce a sorted list of 2D ant locations, each location specified by its
+	This program produces a sorted list of 2D ant locations, each location specified by its
 	integer x and y coordinates and the time t that the ant visited that location. The list is
 	sorted by two keys: the x coordinate and the y coordinate.
 	The sorted list has all x coordinates in ascending order and for locations that have the same x
