@@ -41,9 +41,9 @@
 
    - For each test case in the input
    
-     -- The test case number is printed on a separate line
-     -- The total distance that needs to be travelled is printed on the next line
-     -- This is followed the sequence of customers that the delivery moto should use to minimize distance, 
+     - The test case number is printed on a separate line
+     - The total distance that needs to be travelled is printed on the next line
+     - This is followed the sequence of customers that the delivery moto should use to minimize distance, 
         starting at the restaurant and returning to the restaurant.
 
         Each customer name and address is printed on a separate line
@@ -54,31 +54,31 @@
 
    Sample Input
    ------------
-   1
-   4
-   Mr. Somename, #1 Some Street.
-   Mr. Someothername, #2 Someother Street.
-   Ms. Altname, #3 Alt Street.
-   Ms. Ctrlaltname, #4 Delete Street.
-   OptiPizza, #1 Mozzarella Road. 
-   0   3  10  5 12 
-   3   0  10  8  6 
-   10 11   0  3  6 
-   5   8   4  0  6 
-   12  6   9  7  0 
+      1
+      4
+      Mr. Somename, #1 Some Street.
+      Mr. Someothername, #2 Someother Street.
+      Ms. Altname, #3 Alt Street.
+      Ms. Ctrlaltname, #4 Delete Street.
+      OptiPizza, #1 Mozzarella Road. 
+      0   3  10  5 12 
+      3   0  10  8  6 
+      10 11   0  3  6 
+      5   8   4  0  6 
+      12  6   9  7  0 
 
 
    Sample Output
    -------------
-   jwuyeh
-   1
-   24
-   OptiPizza, #1 Mozzarella Road. 
-   Mr. Someothername, #2 Someother Street.
-   Mr. Somename, #1 Some Street.
-   Ms. Ctrlaltname, #4 Delete Street.
-   Ms. Altname, #3 Alt Street.
-   OptiPizza, #1 Mozzarella Road. 
+      jwuyeh
+      1
+      24
+      OptiPizza, #1 Mozzarella Road. 
+      Mr. Someothername, #2 Someother Street.
+      Mr. Somename, #1 Some Street.
+      Ms. Ctrlaltname, #4 Delete Street.
+      Ms. Altname, #3 Alt Street.
+      OptiPizza, #1 Mozzarella Road. 
 
    Outline Solution Strategy
    -------------------------
