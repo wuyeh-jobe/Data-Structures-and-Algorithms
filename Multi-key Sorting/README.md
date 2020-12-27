@@ -190,19 +190,19 @@
 
    Solution Strategy
    -----------------
-   -1 Read the first line (the number of test cases)
-   -2 Print andrew ID into the output file
-   -3 Check if the test case is greater than zero. If not print the message "no test cases" into the output file.
+   - 1 Read the first line (the number of test cases)
+   - 2 Print andrew ID into the output file
+   - 3 Check if the test case is greater than zero. If not print the message "no test cases" into the output file.
    - Else, do from 4 to 8:
-   -4 Intialize the counter to zero
-   -5 Read ead all the location points for a test case from the input file and put them into an array of location points 
+   - 4 Intialize the counter to zero
+   - 5 Read ead all the location points for a test case from the input file and put them into an array of location points 
 		concurrently, and each time a point is read, the x and y values are truncated), and the counter is incremented
-   -6 While reading the points, if the time value of less than zero is encountered (signalling the end of a test case), sort 
+   - 6 While reading the points, if the time value of less than zero is encountered (signalling the end of a test case), sort 
 		(using insertion sort) the location points (first by t, followed by y and then x, to ensure that priority is given to
 		x, y, and t in this order)
-	-7 Print the sorted list into the output file
-	-8 Print the dash lines to indicate the end of the output for the a test case
-	-9 Do from 4 again, and again untill the end of file is reached
+   - 7 Print the sorted list into the output file
+   - 8 Print the dash lines to indicate the end of the output for the a test case
+   - 9 Do from 4 again, and again untill the end of file is reached
 
 		Note: How The Insertion works for the three keys x,y, and t=>
 		Insertion sort works by comparing each element with the previous elements to see if they are lesser,
