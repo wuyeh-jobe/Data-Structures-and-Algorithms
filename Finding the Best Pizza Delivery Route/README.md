@@ -37,7 +37,6 @@
    Output
    ------
 
-   - The first line of the output file contain the author's Andrew Id.
 
    - For each test case in the input
    
@@ -70,7 +69,6 @@
 
    Sample Output
    -------------
-      jwuyeh
       1
       24
       OptiPizza, #1 Mozzarella Road. 
