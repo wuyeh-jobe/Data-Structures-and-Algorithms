@@ -32,7 +32,6 @@
    Output
    ------
 
-	-Andrew Id on first line.
 	-Followed by a sequence of sorted list of three numbers comprising the time t, the x
 		coordinate, and the y coordinate on separate lines.
 	-The list is sorted by x first, then by y, and then by t, in ascending order.
@@ -191,7 +190,6 @@
    Solution Strategy
    -----------------
    - 1 Read the first line (the number of test cases)
-   - 2 Print andrew ID into the output file
    - 3 Check if the test case is greater than zero. If not print the message "no test cases" into the output file.
    - Else, do from 4 to 8:
    - 4 Intialize the counter to zero
