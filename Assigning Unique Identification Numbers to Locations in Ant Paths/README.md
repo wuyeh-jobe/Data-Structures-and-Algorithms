@@ -114,7 +114,6 @@
    Sample Output
    -------------
 
-   	jwuyeh
 	1 0.000 0 0
 	2 1.100 0 1
 	3 1.400 0 2
@@ -137,7 +136,6 @@
    Solution Strategy
    -----------------
    - Read the first line (the number of test cases)
-   - Print andrew ID into the output file
    - Check if the test case is greater than zero. If not print the andrew ID into the outfile and the message "no test cases".
    - Then Loop through the location points (till the end of the file) while looking for a time
       where t is -1, and each time check if the the location point is not already in the array. If it is, continue reading without
