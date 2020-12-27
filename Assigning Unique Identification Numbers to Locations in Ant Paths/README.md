@@ -1,6 +1,5 @@
 # Assigning Unique Identification Numbers to Locations in Ant Paths
 
- This program is for Assignment No. 1, Course 04-630 Data Structures and Algorithms for Engineers. 
 
    The functionality of the program is defined as follows.
    
