@@ -80,7 +80,7 @@
       Ms. Altname, #3 Alt Street.
       OptiPizza, #1 Mozzarella Road. 
 
-   Outline Solution Strategy
+   Solution Strategy
    -------------------------
    The solution uses combinatorial search with backtracking and pruning. 
    Hence we seek the permutation of the locations that provides the minimum length tour.
