@@ -95,7 +95,6 @@
    Sample Output
    -------------
 
-	jwuyeh
 	Scenario 1
 	Minimum Number of Trips = 5: 24 24 24 24 3
 	Route = 1 2 4 7 
@@ -118,7 +117,6 @@
    Solution Strategy
    -----------------
 
-   - print the andrew (jwuyeh) to the output
    - Read R (number of roads/edges) and N (number of cities)
    - While R and N are not equal to 0:
      - Read the next R lines, and for each line get the two cities a road is connecting
