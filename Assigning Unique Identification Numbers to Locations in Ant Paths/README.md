@@ -28,7 +28,6 @@
    Output
    ------
 
-   - Andrew ID on first Line
    - A list of sequence of four numbers comprising a unique location identification number, the x coordinate,
    the y coordinate, and the first time that location was encountered on the ant path. Each set of these
    four numbers are written on a separate line. The location is given the integer part of the location
