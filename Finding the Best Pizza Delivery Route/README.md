@@ -21,9 +21,9 @@
    - Each test case begins with a line containing an integer number n giving the number of pizza drop-offs locations. 
    - This is followed by n+1 lines containing 
    
-     -- the n locations (i.e. the names and addresses) of each customer 
-     -- followed by the location of the restaurant. 
-     -- It is assumed that n < 10 and that each address is on a separate line.  
+     - the n locations (i.e. the names and addresses) of each customer 
+     - followed by the location of the restaurant. 
+     - It is assumed that n < 10 and that each address is on a separate line.  
 
    - This is followed by n+1 lines each containing n+1 integers specifying the distances between each location (including itself).  
    - The jth number on line i gives the distance from location i to location j. 
